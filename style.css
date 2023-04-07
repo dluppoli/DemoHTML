@@ -1,0 +1,70 @@
+body
+{
+    background-color: beige;
+    color: #1B1B1B/*rgb(30,30,30);*/
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color:blueviolet;
+}
+
+b
+{
+    color: darkred;
+}
+
+.testoEvidenziato
+{
+    background-color: yellow;
+}
+
+.testoGrassetto
+{
+    font-weight: bold;
+}
+
+.testoGrassetto.testoEvidenziato
+{
+    color:chartreuse;
+}
+
+#mascotte
+{
+    font-style: italic;
+}
+
+h2 ~ p
+{
+    color: red;
+}
+
+a:link
+{
+    color: blue;
+}
+
+a:visited
+{
+    color: blue;
+}
+
+a:hover
+{
+    background: yellow;
+}
+
+p::first-letter
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+p::selection
+{
+    background-color: darkgreen;
+    color: white;
+}
+
+
