@@ -68,3 +68,33 @@ p::selection
 }
 
 
+
+/* Stile per la tabella */
+table
+{
+    text-align: left;
+}
+
+tfoot td:first-of-type
+{
+    text-align: right;
+}
+
+tr td:last-of-type,
+tr th:last-of-type
+{
+    text-align: center;
+}
+
+thead, tfoot
+{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: azure;
+}
+
+
